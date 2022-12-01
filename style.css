@@ -34,8 +34,6 @@ p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: lemonchiffon;
     text-align: center;
-    /* margin-top: 100px; */
-    /* transition:font-size 0.9s ease-in,color 1s red; */
 }
 p:hover
 {
@@ -43,11 +41,7 @@ p:hover
     font-size: 55px;
     transition:font-size 0.9s ease-in;
 }
-/* img
-{
-    position:relative; */
-    /* transition: width 0.9s;
-} */
+
 img:hover
 {
     width: 750px;
@@ -57,7 +51,6 @@ img:hover
 footer{
     background-color: cadetblue;
     text-align: center;
-    /* margin-top: 90px; */
     height: 200px;
 }
 h3
