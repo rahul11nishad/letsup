@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+#heder
+{
+    height: 50px;
+    background-color:white;
+    display: flex;
+    justify-content:space-around;
+    padding: 10px;
+    opacity: 01.5;
+    position: sticky;
+    top: 0;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 30px;
+    height: 60px;
+}
+#hero
+{
+    background-image:linear-gradient(58deg,#7d82ff,#f3406ad7);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lemonchiffon;
+    text-align: center;
+    /* margin-top: 100px; */
+    /* transition:font-size 0.9s ease-in,color 1s red; */
+}
+p:hover
+{
+
+    font-size: 55px;
+    transition:font-size 0.9s ease-in;
+}
+/* img
+{
+    position:relative; */
+    /* transition: width 0.9s;
+} */
+img:hover
+{
+    width: 750px;
+    transform: rotate(5deg);
+    transition:width 0.5s ease-in-out,transform 0.5s ease;
+}
+footer{
+    background-color: cadetblue;
+    text-align: center;
+    /* margin-top: 90px; */
+    height: 200px;
+}
+h3
+{
+    padding-top:90px ;
+    text-align: center;
+}
